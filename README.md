@@ -1,4 +1,4 @@
-Alright so I'm learning C++ trying to be proficient in this OOP Language to get more of an in depth view of how a machine works. 
+Alright so I'm learning C++ 11/14 trying to be proficient in this OOP Language to get more of an in depth view of how a machine works. 
 
 I'm actually having a lot of fun dealing with the trial and errors of C++ coding because it teaches me to watch for my mistakes and makes me brainstorm how to get past it
 
