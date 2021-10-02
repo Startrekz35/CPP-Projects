@@ -6,5 +6,5 @@ int main()
     cout << "Enter a number of miles\n";
     cin >> miles;
     kilos = 1.609;
-    cout << "It is (" << miles * kilos << " Kilometers)\n" ;
+    cout << "It is (" << miles * kilos << " Kilometers)\n";
 }
