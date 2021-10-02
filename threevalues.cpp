@@ -1,29 +1,40 @@
 #include "std_lib_facilities.h"
 
+void sortNum(double& num1, double& num2, double& num3);
+
 int main()
 {
-    int val1, val2, val3;
+    double f1, f2, f3;
     cout << "Enter three values\n";
-    cin >> val1 >> val2 >> val3;
+    cin >> f1 >> f2 >> f3;
 
-    if (val1 < val2 < val3)
-    {
-    cout << val1 << " " << val2 << " " << val3 << "\n";
-    }
+    sortNum(f1, f2, f3);
+
+    cout << "The numbers in order would be " << f1 << " " << f2 << " " << f3 << "\n";
+}
+
+void sortNum(double& num1, double& num2, double& num3)
+{
     
-    if (val2 < val1 < val3)
+    if (num1 > num2)
     {
-    cout << val2 << " " << val2 << " " << val3 << "\n";
+        double temp = num1;
+        num1 = num2;
+        num2 = temp;
     }
-    
-    if (val3 < val2 < val1)
+
+    if (num1 > num3)
     {
-    cout << val3 << " " << val2 << " " << val1 << "\n";
+        double temp = num1;
+        num1 = num3;
+        num3 = temp;
     }
-    
-    if (/* condition */)
+
+    if (num2 > num3)
     {
-        /* code */
+        double temp = num2;
+        num2 = num3;
+        num3 = temp;
     }
-    
+
 }
