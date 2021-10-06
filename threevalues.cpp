@@ -5,12 +5,12 @@ void sortNum(double& num1, double& num2, double& num3);
 int main()
 {
     double f1, f2, f3;
-    cout << "Enter three values\n";
-    cin >> f1 >> f2 >> f3;
+    std::cout << "Enter three values\n";
+    std::cin >> f1 >> f2 >> f3;
 
     sortNum(f1, f2, f3);
 
-    cout << "The numbers in order would be " << f1 << " " << f2 << " " << f3 << "\n";
+    std::cout << "The numbers in order would be " << f1 << " " << f2 << " " << f3 << "\n";
 }
 
 void sortNum(double& num1, double& num2, double& num3)
