@@ -6,7 +6,9 @@ int main()
 {
     double f1, f2, f3;
     std::cout << "Enter three values\n";
-    std::cin >> f1 >> f2 >> f3;
+    std::cin >> f1; 
+    std::cin >> f2; 
+    std::cin >> f3;
 
     sortNum(f1, f2, f3);
 
